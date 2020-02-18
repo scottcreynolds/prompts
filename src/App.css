@@ -91,8 +91,8 @@
   margin: 1.75rem auto;
   border-radius: 3px;
   max-width: 500px;
-  padding: 2rem;
-  font-size: calc(10px + 3vmin);
+  padding: 1rem;
+  font-size: calc(10px + 2vmin);
 }
 
 .modal-header {
@@ -101,8 +101,8 @@
 }
 
 .modal-close-button {
-  font-size: 1.4rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 900;
   line-height: 1;
   color: #000;
   opacity: .3;
