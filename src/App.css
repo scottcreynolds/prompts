@@ -35,11 +35,16 @@
 .App-footer {
   min-height: 10vh;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
 }
 
 .copyright {
   font-size: calc(10px + 1vmin);
+  padding: 5px 0px 5px 0px;
+  color: white;
+  cursor: pointer;
 }
 
 .prompt {
@@ -49,16 +54,69 @@
   color: #61dafb;
   cursor: pointer;
 }
-
+.how-to {
+  color: #61dafb;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: calc(10px + 3vmin);
+}
 .get-prompt {
   color: #61dafb;
   cursor: pointer;
   background: none;
-	margin: 0;
-  padding: 0;
   border: none;
   font-size: calc(10px + 3vmin);
   margin-top: 5vmin;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: .5;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+
+.modal {
+  z-index: 100;
+  background: white;
+  position: relative;
+  margin: 1.75rem auto;
+  border-radius: 3px;
+  max-width: 500px;
+  padding: 2rem;
+  font-size: calc(10px + 3vmin);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-close-button {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  opacity: .3;
+  cursor: pointer;
+  border: none;
 }
 
 @keyframes App-logo-spin {
