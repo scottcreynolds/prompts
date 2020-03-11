@@ -74,4 +74,6 @@ export const prompts = [
   "Write three short scenes that (all together) fit on a single page that together advance the narrative or reveal character in some way.",
   "Write a scene where someone confides in someone that they usually would not have confided in. You can decide if it comes back to haunt them or not.",
   "Write a scene where someone does or says something they can't take back.",
+  "Write a scene where a character is physically, geographically out of their comfort zone. Whether across the street or across the world, put them in a location they'd rather not be.",
+  "Write a scene where someone is traveling and things are not going to plan.",
 ]
