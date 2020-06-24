@@ -76,4 +76,6 @@ export const prompts = [
   "Write a scene where someone does or says something they can't take back.",
   "Write a scene where a character is physically, geographically out of their comfort zone. Whether across the street or across the world, put them in a location they'd rather not be.",
   "Write a scene where someone is traveling and things are not going to plan.",
+  "Write a scene where a character discovers a forgotten object.",
+  "Write a scene where a character tries to get some object or MacGuffin.",
 ]
